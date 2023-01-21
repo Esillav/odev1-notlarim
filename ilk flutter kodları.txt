@@ -1,0 +1,122 @@
+print('main çalıştı');
+  print('main bitti');
+  print( 'main zıplıyor');
+  print('main'+'tekrar'+'çalıştı');
+
+  var dart_var="this is a variable";
+  print( dart_var);
+  dart_var= "this is an update variable";
+  print( dart_var);
+
+  String name = 'dart';
+  print(name);
+
+   var name2 = '\nI love to develop \napplications with flutter';
+   print(name+" "+name2);
+
+   var name3 ='the price is \$10';
+   print(name3);
+
+   bool dogru_veye_yanlis= false;
+
+   int x=0;
+   bool y =x<2;
+   print(dogru_veye_yanlis);
+   if(y) {
+     print("üzülme vunay");
+   }
+
+   else
+     {
+       print("smile");
+     }
+   donenSey();
+
+
+
+}
+
+Toplama() {
+  int a=7;
+ var b =7.0 as Float;
+ var c = a+8;
+ print(c);
+}
+Cikarma(){
+  int d=5;
+   var e = 6.4;
+   var i=  d-e ;
+   print(i);
+}
+
+donenSey() {
+  for (int v = 0; v < 10; v++) {
+    for (int e = 20; e > 0; e--) {
+      print("$v " + "" + "$e");
+    }
+  }
+  var Yaren = "yfuf" as String;
+  Yaren = "Yaren";
+  var s = "dgfhj";
+// var i = 78
+  print(Yaren);
+
+  String Kaplan;
+  Kaplan = 'mamayı' + 'yedi';
+  print(Kaplan);
+  var t = true;
+
+
+  var number = 1.0 as double;
+  var number_double = 1.0 as double;
+  var number2 = 11;
+  var number_int = 11;
+  print(number_double + number_int);
+
+  String? user_name;
+  print(user_name);
+num number = 2;
+  num number2 = 9;
+  var int = number ++;
+  var c = number2 + number;
+  print(c);
+
+
+    print('hoş geldiniz');
+    var mesajSayisi = 5;
+    if (mesajSayisi > 0) {
+      print('yeni mesajınız var!');
+    } else {
+      print('yeni mesajınız yok. :s');
+    }
+
+     final ogrenci= {
+      'adı': 'ali',
+     'soyadı': 'taş',
+     'yaşı': 18,
+     'cinsiyeti': 'erkek',
+     'notu': 100,
+     };
+    print(ogrenci);
+}
+
+class Ogrenci{
+  String adi;
+  String soyadi;
+  int yasi;
+  String cinsiyeti;
+  int notu;
+  Ogrenci (this.adi, this.cinsiyeti, this.notu, this.soyadi, this.yasi);
+
+
+  
+
+
+ String toString() {
+   return '$adi, $soyadi, $cinsiyeti, $notu, $yasi';
+   print (Ogrenci);
+  }
+  final ali= Ogrenci('ali','taş',18,'erkek', 100);
+  final veli= Ogrenci('veli','taş',19,'erkek', 90);
+
+
